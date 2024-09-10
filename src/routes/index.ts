@@ -6,10 +6,10 @@ export default eventHandler(() => {
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Bad Developer</title>
-      <link rel="icon" href="https://i.postimg.cc/cCcK7MST/logo.png" />
+      <link rel="icon" href="https://i.postimg.cc/nLNDZDKZ/logo-1.png" />
       <meta property="og:title" content="Bad Developer" />
       <meta property="og:description" content="Bad developer's portfolio website" />
-      <meta property="og:image" content="https://i.postimg.cc/cCcK7MST/logo.png" />
+      <meta property="og:image" content="https://i.postimg.cc/nLNDZDKZ/logo-1.png" />
       <meta property="og:url" content="https://cozi.lol" />
       <meta property="og:type" content="website" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -33,10 +33,10 @@ export default eventHandler(() => {
     </head>
 
     <body class="bg-mono-background min-h-screen flex flex-col items-center justify-center p-4 cursor-default">
-      <div class="bg-mono-card rounded-lg shadow-2xl p-8 max-w-2xl w-full">
+      <div class="bg-mono-card rounded-lg shadow-2xl p-8 max-w-xl w-full">
         <div class="flex items-center justify-between mb-6">
           <h1 class="text-4xl font-bold text-primary-700">Bad <span class="text-type-emphasized">Developer</span></h1>
-          <img src="https://i.postimg.cc/cCcK7MST/logo.png" class="w-14 h-auto shadow-md" />
+          <img src="https://i.postimg.cc/nLNDZDKZ/logo-1.png" class="w-14 h-auto shadow-md" />
         </div>
 
         <p class="text-type-dimmed mb-4">
@@ -44,59 +44,60 @@ export default eventHandler(() => {
         </p>
 
         <h2 class="flex items-center mb-4 text-2xl font-semibold text-type-emphasized">
-          Basic Usage
+          Frameworks & Languages
         </h2>
-
-        <div class="space-y-4 mb-6">
-          <div class="bg-mono-accent shadow-xl p-4 rounded-md flex flex-col gap-1">
-            <h3 class="font-semibold text-type-subheader">Search by IMDB / TMDB ID</h3>
-            <div class="flex flex-row gap-1">
-              <a href="/search?id=tt3659388" alt="Example link: search by IMDB ID" title="Search by IMDB ID">
-                <code class="text-sm text-primary-500 hover:text-primary-600 transition duration-100 break-words">/search?id=tt3659388</code>
-              </a>
-              <span class="text-type-dimmed break-words mx-1">
-                or
-              </span>
-              <a href="/search?id=286217" alt="Example link: search by TMDB ID" title="Search by TMDB ID">
-                <code class="text-sm text-primary-500 hover:text-primary-600 transition duration-100 break-words">/search?id=286217</code>
-              </a>
-            </div>
-          </div>
-          <div class="bg-mono-accent shadow-xl p-4 rounded-md flex flex-col gap-1">
-            <h3 class="font-semibold text-type-subheader">Search by season and episode</h3>
-            <a href="/search?id=tt0121955&season=1&episode=1" alt="Example link: search by season and episode" title="Search by season and episode">
-              <code class="text-sm text-primary-500 hover:text-primary-600 transition duration-100 break-words">/search?id=tt0121955&season=1&episode=1</code>
-            </a>
-          </div>
-          <div class="bg-mono-accent shadow-xl p-4 rounded-md flex flex-col gap-1">
-            <h3 class="font-semibold text-type-subheader">Search by language</h3>
-            <a href="/search?id=tt0121955&language=en" alt="Example link: search by language" title="Search by language">
-              <code class="text-sm text-primary-500 hover:text-primary-600 transition duration-100 break-words">/search?id=tt0121955&language=en</code>
-            </a>
-          </div>
-          <div class="bg-mono-accent shadow-xl p-4 rounded-md flex flex-col gap-1">
-            <h3 class="font-semibold text-type-subheader">Search by format</h3>
-            <a href="/search?id=tt0121955&format=srt" alt="Example link: search by file format" title="Search by ID and format">
-              <code class="text-sm text-primary-500 hover:text-primary-600 transition duration-100 break-words">/search?id=tt0121955&format=srt</code>
-            </a>
-          </div>
+        <div class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-4 justify-items-center mb-4">
+          <img src="https://i.postimg.cc/sD0SKqBv/icons8-python-144.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.python.org/', '_blank')">
+          <img src="https://i.postimg.cc/fTZZpR9P/Typescript.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.typescriptlang.org/', '_blank')">
+          <img src="https://i.postimg.cc/Nfs4Y8Ys/js.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.javascript.com/', '_blank')">
+          <img src="https://i.postimg.cc/nzxm2ZhF/java.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.java.com/', '_blank')">
+          <img src="https://i.postimg.cc/BZK66RSN/icons8-c-144.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://isocpp.org/', '_blank')">
+          <img src="https://i.postimg.cc/4ygTnLPF/pngwing-com.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.gnu.org/software/bash/', '_blank')">
+          <img src="https://i.postimg.cc/63YxndHx/react.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://react.dev/', '_blank')">
+          <img src="https://i.postimg.cc/BQyXNDSZ/5968322.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://nodejs.org/en', '_blank')">
+          <img src="https://i.postimg.cc/DwBNC2r1/tailwind.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://tailwindcss.com/', '_blank')">
+          <img src="https://i.postimg.cc/9XwjrqGK/icon.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://nitro.unjs.io/', '_blank')">
+          <img src="https://i.postimg.cc/2SVdDrpQ/workers.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://workers.cloudflare.com/', '_blank')">
+          <img src="https://i.postimg.cc/JztS7Cmz/logo-1-1.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://zod.dev', '_blank')">
+          <img src="https://i.postimg.cc/c4DJC3gM/124599.jpg" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://ui.shadcn.com/', '_blank')">
+          <img src="https://i.postimg.cc/Z5MF80g6/72518640.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://tanstack.com/', '_blank')">
+          <img src="https://i.postimg.cc/9QryQCM0/logo-2.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://neatojs.com/docs/guider', '_blank')">
+          <img src="https://i.postimg.cc/25WvnGnf/download-2-removebg-preview.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://million.dev/', '_blank')">
         </div>
-        <a onclick="redirectToRandomLink()" class="flex justify-center" alt="Example check it out button" title="Example requests">
-          <button class="text-type-emphasized shadow-lg text-lg w-5/6 py-1 rounded bg-primary-700 hover:scale-105 transition duration-100">
-            Check it out
+
+        <h2 class="flex items-center mb-4 text-2xl font-semibold text-type-emphasized">
+          Software
+        </h2>
+        <div class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-4 justify-items-center mb-4">
+          <img src="https://i.postimg.cc/fyqkGSYK/logo-removebg-preview.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://httptoolkit.com/', '_blank')">
+          <img src="https://i.postimg.cc/3JywyRgs/Visual-Studio-Code-1-35-icon-svg.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://code.visualstudio.com/', '_blank')">
+          <img src="https://i.postimg.cc/ZqLYkySd/download-3-removebg-preview.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://google.com', '_blank')">
+          <img src="https://i.postimg.cc/B6Yqb9tZ/figma-logo-512.png" class="w-10 h-auto shadow-md hover:scale-110 duration-300 hover:scale-110 cursor-pointer duration-300">
+          <img src="https://i.postimg.cc/jS0RLhqf/images-2-removebg-preview.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://google.com', '_blank')">
+          <img src="https://i.postimg.cc/cLB6Wz7C/linux-icon-2048x2048-sy06t4un-removebg-preview.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://google.com', '_blank')">
+        </div>
+
+        <h2 class="flex items-center mb-4 text-2xl font-semibold text-type-emphasized">
+          Contributions
+        </h2>
+        <div class="text-type-dimmed mb-8 flex flex-wrap justify-between">
+          <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://subs.wyzie.ru" alt="wyzie-subs" title="wyzie-subs">wyzie-subs</a>
+          <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://files.vc" alt="files.vc" title="files.vc">files.vc</a>
+          <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://github.com/sussy-code" alt="sudo-flix" title="sudo-flix">sudo-flix</a>
+          <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://github.com/bookracy" alt="bookracy" title="bookracy">bookracy</a>
+          <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://upaste.co" alt="upaste" title="upaste">upaste</a>
+        </div>
+
+        <a href="https://github.com/itzcozi" class="flex justify-center" alt="Github" title="Github">
+          <button class="text-type-emphasized shadow-lg text-lg w-5/6 py-1 rounded bg-primary-700 hover:scale-105 transition duration-200 flex gap-4 items-center justify-center">
+            My Github
+            <img src="https://i.postimg.cc/0QL9ypJH/github-mark-white.png" alt="Github Logo" class="w-6 h-6" />
           </button>
         </a>
       </div>
 
       <footer class="mt-12 text-center text-type-footer text-sm">
         <p class="flex justify-center items-center space-x-2 mt-2">
-          <a href="https://github.com/itzcozi" target="_blank" rel="noopener noreferrer" class="hover:text-primary-600 text-dark transition duration-100" alt="Github link" title="Github">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="w-5 h-5 fill-current">
-              <path
-                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
-              />
-            </svg>
-          </a>
           <a href="https://x.com/lilmancoop420" class="hover:text-primary-600 text-dark transition duration-100" alt="Twitter link" title="Twitter">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 fill-current">
               <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
