@@ -71,10 +71,10 @@ export default eventHandler(() => {
         <div class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-4 justify-items-center mb-4">
           <img src="https://i.postimg.cc/fyqkGSYK/logo-removebg-preview.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://httptoolkit.com/', '_blank')">
           <img src="https://i.postimg.cc/3JywyRgs/Visual-Studio-Code-1-35-icon-svg.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://code.visualstudio.com/', '_blank')">
-          <img src="https://i.postimg.cc/ZqLYkySd/download-3-removebg-preview.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://google.com', '_blank')">
-          <img src="https://i.postimg.cc/B6Yqb9tZ/figma-logo-512.png" class="w-10 h-auto shadow-md hover:scale-110 duration-300 hover:scale-110 cursor-pointer duration-300">
-          <img src="https://i.postimg.cc/jS0RLhqf/images-2-removebg-preview.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://google.com', '_blank')">
-          <img src="https://i.postimg.cc/cLB6Wz7C/linux-icon-2048x2048-sy06t4un-removebg-preview.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://google.com', '_blank')">
+          <img src="https://i.postimg.cc/ZqLYkySd/download-3-removebg-preview.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://git-scm.com/', '_blank')">
+          <img src="https://i.postimg.cc/B6Yqb9tZ/figma-logo-512.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.figma.com/', '_blank')">
+          <img src="https://i.postimg.cc/jS0RLhqf/images-2-removebg-preview.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.cloudflare.com', '_blank')">
+          <img src="https://i.postimg.cc/cLB6Wz7C/linux-icon-2048x2048-sy06t4un-removebg-preview.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.linux.org/', '_blank')">
         </div>
 
         <h2 class="flex items-center mb-4 text-2xl font-semibold text-type-emphasized">
