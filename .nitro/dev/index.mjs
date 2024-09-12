@@ -908,34 +908,34 @@ const index = eventHandler(() => {
           Frameworks & Languages
         </h2>
         <div class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-4 justify-items-center mb-4">
-          <img src="https://i.postimg.cc/sD0SKqBv/icons8-python-144.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.python.org/', '_blank')">
-          <img src="https://i.postimg.cc/fTZZpR9P/Typescript.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.typescriptlang.org/', '_blank')">
-          <img src="https://i.postimg.cc/Nfs4Y8Ys/js.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.javascript.com/', '_blank')">
-          <img src="https://i.postimg.cc/nzxm2ZhF/java.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.java.com/', '_blank')">
-          <img src="https://i.postimg.cc/BZK66RSN/icons8-c-144.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://isocpp.org/', '_blank')">
-          <img src="https://i.postimg.cc/4ygTnLPF/pngwing-com.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.gnu.org/software/bash/', '_blank')">
-          <img src="https://i.postimg.cc/63YxndHx/react.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://react.dev/', '_blank')">
-          <img src="https://i.postimg.cc/BQyXNDSZ/5968322.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://nodejs.org/en', '_blank')">
-          <img src="https://i.postimg.cc/DwBNC2r1/tailwind.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://tailwindcss.com/', '_blank')">
-          <img src="https://i.postimg.cc/9XwjrqGK/icon.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://nitro.unjs.io/', '_blank')">
-          <img src="https://i.postimg.cc/2SVdDrpQ/workers.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://workers.cloudflare.com/', '_blank')">
-          <img src="https://i.postimg.cc/JztS7Cmz/logo-1-1.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://zod.dev', '_blank')">
-          <img src="https://i.postimg.cc/c4DJC3gM/124599.jpg" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://ui.shadcn.com/', '_blank')">
-          <img src="https://i.postimg.cc/Z5MF80g6/72518640.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://tanstack.com/', '_blank')">
-          <img src="https://i.postimg.cc/9QryQCM0/logo-2.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://neatojs.com/docs/guider', '_blank')">
-          <img src="https://i.postimg.cc/25WvnGnf/download-2-removebg-preview.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://million.dev/', '_blank')">
+          <img src="https://i.postimg.cc/sD0SKqBv/icons8-python-144.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.python.org/', '_blank')">
+          <img src="https://i.postimg.cc/fTZZpR9P/Typescript.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.typescriptlang.org/', '_blank')">
+          <img src="https://i.postimg.cc/Nfs4Y8Ys/js.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.javascript.com/', '_blank')">
+          <img src="https://i.postimg.cc/nzxm2ZhF/java.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.java.com/', '_blank')">
+          <img src="https://i.postimg.cc/BZK66RSN/icons8-c-144.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://isocpp.org/', '_blank')">
+          <img src="https://i.postimg.cc/4ygTnLPF/pngwing-com.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.gnu.org/software/bash/', '_blank')">
+          <img src="https://i.postimg.cc/63YxndHx/react.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://react.dev/', '_blank')">
+          <img src="https://i.postimg.cc/BQyXNDSZ/5968322.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://nodejs.org/en', '_blank')">
+          <img src="https://i.postimg.cc/DwBNC2r1/tailwind.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://tailwindcss.com/', '_blank')">
+          <img src="https://i.postimg.cc/9XwjrqGK/icon.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://nitro.unjs.io/', '_blank')">
+          <img src="https://i.postimg.cc/2SVdDrpQ/workers.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://workers.cloudflare.com/', '_blank')">
+          <img src="https://i.postimg.cc/JztS7Cmz/logo-1-1.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://zod.dev', '_blank')">
+          <img src="https://i.postimg.cc/c4DJC3gM/124599.jpg" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://ui.shadcn.com/', '_blank')">
+          <img src="https://i.postimg.cc/Z5MF80g6/72518640.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://tanstack.com/', '_blank')">
+          <img src="https://i.postimg.cc/9QryQCM0/logo-2.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://neatojs.com/docs/guider', '_blank')">
+          <img src="https://i.postimg.cc/25WvnGnf/download-2-removebg-preview.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://million.dev/', '_blank')">
         </div>
 
         <h2 class="flex items-center mb-4 text-2xl font-semibold text-type-emphasized">
           Software
         </h2>
         <div class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-4 justify-items-center mb-4">
-          <img src="https://i.postimg.cc/fyqkGSYK/logo-removebg-preview.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://httptoolkit.com/', '_blank')">
-          <img src="https://i.postimg.cc/3JywyRgs/Visual-Studio-Code-1-35-icon-svg.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://code.visualstudio.com/', '_blank')">
-          <img src="https://i.postimg.cc/ZqLYkySd/download-3-removebg-preview.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://google.com', '_blank')">
-          <img src="https://i.postimg.cc/B6Yqb9tZ/figma-logo-512.png" class="w-10 h-auto shadow-md hover:scale-110 duration-300 hover:scale-110 cursor-pointer duration-300">
-          <img src="https://i.postimg.cc/jS0RLhqf/images-2-removebg-preview.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://google.com', '_blank')">
-          <img src="https://i.postimg.cc/cLB6Wz7C/linux-icon-2048x2048-sy06t4un-removebg-preview.png" class="w-10 h-auto shadow-md hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://google.com', '_blank')">
+          <img src="https://i.postimg.cc/fyqkGSYK/logo-removebg-preview.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://httptoolkit.com/', '_blank')">
+          <img src="https://i.postimg.cc/3JywyRgs/Visual-Studio-Code-1-35-icon-svg.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://code.visualstudio.com/', '_blank')">
+          <img src="https://i.postimg.cc/ZqLYkySd/download-3-removebg-preview.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://git-scm.com/', '_blank')">
+          <img src="https://i.postimg.cc/B6Yqb9tZ/figma-logo-512.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.figma.com/', '_blank')">
+          <img src="https://i.postimg.cc/jS0RLhqf/images-2-removebg-preview.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.cloudflare.com', '_blank')">
+          <img src="https://i.postimg.cc/cLB6Wz7C/linux-icon-2048x2048-sy06t4un-removebg-preview.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://www.linux.org/', '_blank')">
         </div>
 
         <h2 class="flex items-center mb-4 text-2xl font-semibold text-type-emphasized">
