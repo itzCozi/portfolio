@@ -82,7 +82,7 @@ export default eventHandler(() => {
           Contributions
         </h2>
         <div class="text-type-dimmed mb-8 flex flex-wrap justify-between">
-          <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://subs.wyzie.ru" alt="wyzie-subs" title="wyzie-subs">wyzie-subs</a>
+          <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://wyzie.ru" alt="wyzie-subs" title="Wyzie Toolset">wyzie toolset</a>
           <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://files.vc" alt="files.vc" title="files.vc">files.vc</a>
           <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://github.com/sussy-code" alt="sudo-flix" title="sudo-flix">sudo-flix</a>
           <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://github.com/bookracy" alt="bookracy" title="bookracy">bookracy</a>
