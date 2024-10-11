@@ -64,7 +64,9 @@ export default eventHandler(() => {
           <img loading="lazy" src="https://i.postimg.cc/9QryQCM0/logo-2.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://neatojs.com/docs/guider', '_blank')">
           <img loading="lazy" src="https://i.postimg.cc/25WvnGnf/download-2-removebg-preview.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://million.dev/', '_blank')">
           <img loading="lazy" src="https://i.postimg.cc/d02Yr0qF/Vite-js.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://million.dev/', '_blank')">
-          <img loading="lazy" src="https://i.postimg.cc/gJnJH0CG/hono-logo-85-A5-D1206-D-seeklogo-com.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://hono.dev/', '_blank')">  
+          <img loading="lazy" src="https://i.postimg.cc/gJnJH0CG/hono-logo-85-A5-D1206-D-seeklogo-com.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://hono.dev/', '_blank')">
+          <img loading="lazy" src="https://i.postimg.cc/90wnGJ8x/images-1-removebg-preview.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://svelte.dev/', '_blank')">
+          <img loading="lazy" src="https://i.postimg.cc/ZKhG8hmp/prettier-removebg-preview.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://prettier.io/', '_blank')">
         </div>
 
         <h2 class="flex items-center mb-4 text-2xl font-semibold text-type-emphasized">
@@ -85,6 +87,7 @@ export default eventHandler(() => {
         <div class="text-type-dimmed mb-8 flex flex-wrap justify-between">
           <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://wyzie.ru" alt="wyzie-subs" title="Wyzie Toolset">wyzie toolset</a>
           <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://files.vc" alt="files.vc" title="files.vc">files.vc</a>
+          <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://markd.top" alt="markd" title="markd">markd</a>
           <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://github.com/sussy-code" alt="sudo-flix" title="sudo-flix">sudo-flix</a>
           <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://github.com/bookracy" alt="bookracy" title="bookracy">bookracy</a>
           <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://upaste.co" alt="upaste" title="upaste">upaste</a>

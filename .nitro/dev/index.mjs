@@ -4,8 +4,8 @@ import { join } from 'node:path';
 import { mkdirSync } from 'node:fs';
 import { parentPort, threadId } from 'node:worker_threads';
 import { provider, isWindows } from 'file:///workspaces/portfolio/node_modules/.pnpm/std-env@3.7.0/node_modules/std-env/dist/index.mjs';
-import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, fetchWithEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, setResponseHeader, send, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, createError, getRouterParam, getQuery as getQuery$1, readBody } from 'file:///workspaces/portfolio/node_modules/.pnpm/h3@1.12.0/node_modules/h3/dist/index.mjs';
-import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///workspaces/portfolio/node_modules/.pnpm/ofetch@1.3.4/node_modules/ofetch/dist/node.mjs';
+import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, fetchWithEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, setResponseHeader, send, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, createError, getRouterParam, getQuery as getQuery$1, readBody } from 'file:///workspaces/portfolio/node_modules/.pnpm/h3@1.13.0/node_modules/h3/dist/index.mjs';
+import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///workspaces/portfolio/node_modules/.pnpm/ofetch@1.4.1/node_modules/ofetch/dist/node.mjs';
 import destr from 'file:///workspaces/portfolio/node_modules/.pnpm/destr@2.0.3/node_modules/destr/dist/index.mjs';
 import { createCall, createFetch } from 'file:///workspaces/portfolio/node_modules/.pnpm/unenv@1.10.0/node_modules/unenv/runtime/fetch/index.mjs';
 import { createHooks } from 'file:///workspaces/portfolio/node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs';
@@ -925,7 +925,9 @@ const index = eventHandler(() => {
           <img loading="lazy" src="https://i.postimg.cc/9QryQCM0/logo-2.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://neatojs.com/docs/guider', '_blank')">
           <img loading="lazy" src="https://i.postimg.cc/25WvnGnf/download-2-removebg-preview.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://million.dev/', '_blank')">
           <img loading="lazy" src="https://i.postimg.cc/d02Yr0qF/Vite-js.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://million.dev/', '_blank')">
-          <img loading="lazy" src="https://i.postimg.cc/gJnJH0CG/hono-logo-85-A5-D1206-D-seeklogo-com.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://hono.dev/', '_blank')">  
+          <img loading="lazy" src="https://i.postimg.cc/gJnJH0CG/hono-logo-85-A5-D1206-D-seeklogo-com.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://hono.dev/', '_blank')">
+          <img loading="lazy" src="https://i.postimg.cc/90wnGJ8x/images-1-removebg-preview.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://svelte.dev/', '_blank')">
+          <img loading="lazy" src="https://i.postimg.cc/ZKhG8hmp/prettier-removebg-preview.png" class="w-10 h-auto hover:scale-110 cursor-pointer duration-300" onClick="window.open('https://prettier.io/', '_blank')">
         </div>
 
         <h2 class="flex items-center mb-4 text-2xl font-semibold text-type-emphasized">
@@ -946,6 +948,7 @@ const index = eventHandler(() => {
         <div class="text-type-dimmed mb-8 flex flex-wrap justify-between">
           <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://wyzie.ru" alt="wyzie-subs" title="Wyzie Toolset">wyzie toolset</a>
           <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://files.vc" alt="files.vc" title="files.vc">files.vc</a>
+          <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://markd.top" alt="markd" title="markd">markd</a>
           <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://github.com/sussy-code" alt="sudo-flix" title="sudo-flix">sudo-flix</a>
           <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://github.com/bookracy" alt="bookracy" title="bookracy">bookracy</a>
           <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://upaste.co" alt="upaste" title="upaste">upaste</a>
