@@ -90,7 +90,7 @@ export default eventHandler(() => {
           <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://markd.it" alt="markd" title="markd">markd</a>
           <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://github.com/sussy-code" alt="sudo-flix" title="sudo-flix">sudo-flix</a>
           <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://github.com/bookracy" alt="bookracy" title="bookracy">bookracy</a>
-          <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://upaste.co" alt="upaste" title="upaste">upaste</a>
+          <a class="underline text-primary-500 hover:text-primary-600 transition duration-100" href="https://365.ilysm.nl" alt="365 Radio" title="365 Radio">365 Radio</a>
         </div>
 
         <a href="https://github.com/itzcozi" class="flex justify-center" alt="Github" title="Github">
